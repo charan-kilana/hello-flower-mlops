@@ -10,6 +10,7 @@ jobs:
   matrix-pip:
     name: Train and Save the model
     runs-on: ubuntu-latest
+    # To run on multiple python versions
     strategy:
       matrix:
         python: [3.11, 3.12]
